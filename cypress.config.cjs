@@ -27,6 +27,7 @@ module.exports = defineConfig({
               '@support': path.resolve(__dirname, 'cypress/support'),
               '@fixtures': path.resolve(__dirname, 'cypress/fixtures'),
             },
+            extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
           },
           module: {
             rules: [
